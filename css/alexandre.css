@@ -1,6 +1,6 @@
 body{
 	background-color: gray;
-
+  color: white;
 }
 
 .navbar-custom {
@@ -65,7 +65,14 @@ body{
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
-    background: black;
+    background: rgba(0, 0, 0, 0.5);
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
+}
+.content-section{
+  padding-top: 5vh;
+}
+
+.sizeSection{
+min-height: 100vh;
 }
