@@ -1,3 +1,9 @@
+"use strict"
+
+function removeActive(){
+	 $('ul.nav > li').removeClass('active');
+}
+
 function collapseNavbar(){
 	if($(".navbar").offset().top > 50)
 		$(".navbar-fixed-top").addClass("top-nav-collapse");
@@ -14,10 +20,16 @@ $(function(){
 		$('html, body').stop().animate({
 			scrollTop: $($anchor.attr('href')).offset().top
 		}, 1500, 'easeInOutExpo');
-		event.preventDefault();
+		event.defaultPrevented;
 	});	
 });
 
 $('.navbar-collapse ul li a').click(function() {
     $(this).closest('.collapse').collapse('toggle');
+});
+
+$('ul.nav > li').click(function (e) {
+    event.defaultPrevented;
+    $('ul.nav > li').removeClass('active');
+    $(this).addClass('active');
 });
