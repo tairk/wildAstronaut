@@ -1,0 +1,76 @@
+body{
+	background-color: black;
+ 	color: white;
+}
+header body html{
+	width: 100%;
+}
+
+h1, h2 {
+	text-transform: uppercase;
+	margin: 0 0 35px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+p {
+    margin: 0 0 35px;
+    line-height: 1.6;
+}
+@media (min-width: 768px){
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+.intro {
+    width: 100%;
+	display: table;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    background: url("../img/background/bg3.png") bottom center no-repeat #000;
+    background-size: cover;
+}
+.intro .intro-body {
+	display: table-cell;
+	vertical-align: middle;
+}
+@media (min-width: 768px) {
+  .intro {
+    height: 100%;
+    padding: 0;
+  }
+  .intro .intro-body .brand-heading {
+    font-size: 100px;
+  }
+  .intro .intro-body .intro-text {
+    font-size: 26px;
+  }
+}
+
+
+
+.btn {
+	font-weight: 400;
+	transition: all .3s ease-in-out;
+	text-transform: uppercase;
+	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+.btn-circle {
+    width: 70px;
+    height: 70px;
+    margin-top: 15px;
+    padding: 7px 16px;
+    border: 2px solid #fff;
+    border-radius: 100%!important;
+    font-size: 40px;
+    color: #fff;
+    background: 0 0;
+}
+@media (min-width: 767px){
+    .content-section {
+        padding-top: 250px;
+    }
+}

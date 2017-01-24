@@ -1,0 +1,47 @@
+
+/*initialisation*/
+
+
+/*style section presentation*/
+.mar0A {
+	margin: 0 auto;
+}
+
+
+
+#foundingSection{
+	background: url("../img/background/s2.jpg") bottom center no-repeat #000;
+	width: 100%;
+    text-align: center;
+    background-size: cover;
+
+}
+
+/*#foundingTitle,.foundingName,.foundingPosition
+{
+	color: white;
+}
+*/
+
+.foundingContainer{
+width:100%;
+}
+
+.fontWhite
+{
+	color: white;
+}
+
+.foundingPhoto{
+	width: 200px;
+	height: 200px;
+}
+
+footer{
+
+	background: black;
+	display: flex;
+	text-align: center;
+	margin-top: 50px;
+	height: 70px;
+}
